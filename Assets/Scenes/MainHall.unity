@@ -20,9 +20,9 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.3121396, g: 0.33791482, b: 0.4707418, a: 1}
-  m_AmbientEquatorColor: {r: 0.3121396, g: 0.33791482, b: 0.4707418, a: 1}
-  m_AmbientGroundColor: {r: 0.3121396, g: 0.33791482, b: 0.4707418, a: 1}
+  m_AmbientSkyColor: {r: 0.15642187, g: 0.18716055, b: 0.31065184, a: 1}
+  m_AmbientEquatorColor: {r: 0.15642187, g: 0.18716055, b: 0.31065184, a: 1}
+  m_AmbientGroundColor: {r: 0.15642187, g: 0.18716055, b: 0.31065184, a: 1}
   m_AmbientIntensity: 0.125
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -7399,6 +7399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166525736}
   - component: {fileID: 166525735}
+  - component: {fileID: 166525737}
   m_Layer: 0
   m_Name: Spot Light (1)
   m_TagString: Untagged
@@ -7482,6 +7483,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &166525737
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166525734}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &173776461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7815,6 +7832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 221533584}
   - component: {fileID: 221533583}
+  - component: {fileID: 221533585}
   m_Layer: 0
   m_Name: Candle Light (3)
   m_TagString: Untagged
@@ -7898,6 +7916,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &221533585
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221533582}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &221541982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4131435082325336, guid: b97f4fc4776ca5b43bbcf11e72cc4ada, type: 3}
@@ -16147,6 +16181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 488621911}
   - component: {fileID: 488621910}
+  - component: {fileID: 488621912}
   m_Layer: 0
   m_Name: Candle Light
   m_TagString: Untagged
@@ -16230,6 +16265,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &488621912
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488621909}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &489187676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4202597566442552, guid: 8272b3b72b484074c83ebfbf94b44ef7, type: 3}
@@ -28919,6 +28970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 864610570}
   - component: {fileID: 864610569}
+  - component: {fileID: 864610571}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -29002,6 +29054,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &864610571
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864610568}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &870857653 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4630550150949678, guid: 214073465227b5944a5a4716cbf03507, type: 3}
@@ -29172,6 +29240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 892914171}
   - component: {fileID: 892914170}
+  - component: {fileID: 892914172}
   m_Layer: 0
   m_Name: Candle Light (1)
   m_TagString: Untagged
@@ -29255,6 +29324,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &892914172
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892914169}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &898330438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29945,6 +30030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 949850747}
   - component: {fileID: 949850746}
+  - component: {fileID: 949850748}
   m_Layer: 0
   m_Name: Candle Light (4)
   m_TagString: Untagged
@@ -30028,6 +30114,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &949850748
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949850745}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &953501120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30979,6 +31081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1038915593}
   - component: {fileID: 1038915592}
+  - component: {fileID: 1038915594}
   m_Layer: 0
   m_Name: Candle Light (2)
   m_TagString: Untagged
@@ -31062,6 +31165,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &1038915594
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038915591}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1039490482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32967,6 +33086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211912013}
   - component: {fileID: 1211912012}
+  - component: {fileID: 1211912014}
   m_Layer: 0
   m_Name: Candle Light (8)
   m_TagString: Untagged
@@ -33050,6 +33170,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &1211912014
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211912011}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1214683415
 GameObject:
   m_ObjectHideFlags: 0
@@ -39607,6 +39743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386128568}
   - component: {fileID: 1386128567}
+  - component: {fileID: 1386128569}
   m_Layer: 0
   m_Name: Candle Light (6)
   m_TagString: Untagged
@@ -39690,6 +39827,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &1386128569
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386128566}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &1387101815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46140,6 +46293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508597605}
   - component: {fileID: 1508597604}
+  - component: {fileID: 1508597606}
   m_Layer: 0
   m_Name: Candle Light (5)
   m_TagString: Untagged
@@ -46223,6 +46377,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &1508597606
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508597603}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &1509855019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4096063731565936, guid: f089fdfc61cbf934f96e05119a0a693f, type: 3}
@@ -49349,6 +49519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1825733943}
   - component: {fileID: 1825733942}
+  - component: {fileID: 1825733944}
   m_Layer: 0
   m_Name: Candle Light (7)
   m_TagString: Untagged
@@ -49432,6 +49603,22 @@ Transform:
   m_Father: {fileID: 453075412}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!111 &1825733944
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825733941}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: bef94c75514300347a74498742c666af, type: 2}
+  m_WrapMode: 4
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &1833321374 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4678561276071904, guid: 0ea34df2a10c42b40be8e877acda2f65, type: 3}
