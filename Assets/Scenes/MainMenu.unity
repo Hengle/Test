@@ -20,9 +20,9 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.3121396, g: 0.33791482, b: 0.4707418, a: 1}
-  m_AmbientEquatorColor: {r: 0.3121396, g: 0.33791482, b: 0.4707418, a: 1}
-  m_AmbientGroundColor: {r: 0.3121396, g: 0.33791482, b: 0.4707418, a: 1}
+  m_AmbientSkyColor: {r: 0.15642187, g: 0.18716055, b: 0.31065184, a: 1}
+  m_AmbientEquatorColor: {r: 0.15642187, g: 0.18716055, b: 0.31065184, a: 1}
+  m_AmbientGroundColor: {r: 0.15642187, g: 0.18716055, b: 0.31065184, a: 1}
   m_AmbientIntensity: 0.125
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
@@ -6068,8 +6068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21, y: 463}
-  m_SizeDelta: {x: 750, y: 270}
+  m_AnchoredPosition: {x: 21, y: 478}
+  m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &128311665
 MonoBehaviour:
@@ -6092,19 +6092,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_Font: {fileID: 12800000, guid: 9430334b24d0e0c45a7592acab4cfaea, type: 3}
+    m_FontSize: 70
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 150
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Return of The King
+  m_Text: "The Return of \nThe King"
 --- !u!222 &128311666
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29009,8 +29009,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -446, y: 478}
-  m_SizeDelta: {x: 750, y: 100}
+  m_AnchoredPosition: {x: -446, y: 491}
+  m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778631473
 MonoBehaviour:
@@ -29033,8 +29033,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_Font: {fileID: 12800000, guid: 9430334b24d0e0c45a7592acab4cfaea, type: 3}
+    m_FontSize: 80
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -42264,7 +42264,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -446, y: 478}
-  m_SizeDelta: {x: 750, y: 100}
+  m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424810614
 MonoBehaviour:
@@ -42287,8 +42287,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_Font: {fileID: 12800000, guid: 9430334b24d0e0c45a7592acab4cfaea, type: 3}
+    m_FontSize: 80
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
@@ -50810,7 +50810,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 1953acc80305c8f4c8b5d0a8b57b79e9, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -57341,7 +57341,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 1953acc80305c8f4c8b5d0a8b57b79e9, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
@@ -57484,7 +57484,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 1953acc80305c8f4c8b5d0a8b57b79e9, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
