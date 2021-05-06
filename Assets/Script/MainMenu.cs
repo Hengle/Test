@@ -7,11 +7,13 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public GameObject mainm;
+    public GameObject howtoplay;
     public GameObject info;
     public GameObject credits;
     public void Start()
     {
         mainm.SetActive(true);
+        howtoplay.SetActive(false);
         info.SetActive(false);
         credits.SetActive(false);
     }
@@ -38,5 +40,15 @@ public class MainMenu : MonoBehaviour
     {
         mainm.SetActive(true);
         credits.SetActive(false);
+    }
+    public void howtoplayClicked()
+    {
+        mainm.SetActive(false);
+        howtoplay.SetActive(true);
+    }
+    public void backHowtoplayClicked()
+    {
+        mainm.SetActive(true);
+        howtoplay.SetActive(false);
     }
 }
