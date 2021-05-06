@@ -1,24 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame()
+    public GameObject mainm;
+    public GameObject info;
+    public GameObject credits;
+    public void Start()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        mainm.SetActive(true);
+        info.SetActive(false);
+        credits.SetActive(false);
     }
-    public void GoToSettingsMenu()
+    public void infoClicked()
     {
-        SceneManager.LoadScene("SettingMenu");
+        mainm.SetActive(false);
+        info.SetActive(true);
     }
-    public void GoToMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
-    public void QuitGame()
+    public void quitClicked()
     {
         Application.Quit();
+    }
+    public void backClicked()
+    {
+        mainm.SetActive(true);
+        info.SetActive(false);
+    }
+    public void creditsClicked()
+    {
+        mainm.SetActive(false);
+        credits.SetActive(true);
+    }
+    public void backCreditsClicked()
+    {
+        mainm.SetActive(true);
+        credits.SetActive(false);
     }
 }
