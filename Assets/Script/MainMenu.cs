@@ -17,6 +17,10 @@ public class MainMenu : MonoBehaviour
         info.SetActive(false);
         credits.SetActive(false);
     }
+    public void PlayGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
     public void infoClicked()
     {
         mainm.SetActive(false);
@@ -24,6 +28,7 @@ public class MainMenu : MonoBehaviour
     }
     public void quitClicked()
     {
+        Debug.Log("QUIT!");
         Application.Quit();
     }
     public void backClicked()
