@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Key1 : MonoBehaviour
 {
-    public Component door;
     public GameObject chest;
     public GameObject flame;
     public GameObject keygone;
@@ -28,7 +27,6 @@ public class Key1 : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E))
             {
-                door.GetComponent<BoxCollider>().enabled = true;
                 chest.SetActive(true);
                 flame.SetActive(true);
                 keygone.SetActive(false);
