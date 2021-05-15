@@ -7,6 +7,7 @@ public class KeyLast : MonoBehaviour
     public Component door;
     public GameObject flame;
     public GameObject keygone;
+    public GameObject UI;
     Animator animate;
     AudioSource sound;
     bool isOpening;
@@ -30,6 +31,7 @@ public class KeyLast : MonoBehaviour
                 door.GetComponent<BoxCollider>().enabled = true;
                 flame.SetActive(true);
                 keygone.SetActive(false);
+                UI.SetActive(false);
                 if (isOpening == false)
                 {
                     isOpening = true;
@@ -37,6 +39,20 @@ public class KeyLast : MonoBehaviour
 
                 }
             }
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            UI.SetActive(true);
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            UI.SetActive(false);
         }
     }
 }

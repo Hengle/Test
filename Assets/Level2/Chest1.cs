@@ -6,6 +6,7 @@ public class Chest1 : MonoBehaviour
 {
     public Component key1;
     public GameObject keygone;
+    public GameObject UI;
     Animator animate;
     AudioSource sound;
     bool isOpening;
@@ -21,11 +22,11 @@ public class Chest1 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            UI.SetActive(true);
             if (isOpening == false)
             {
                 isOpening = true;
                 OpenDoor();
-
             }
         }
     }
@@ -38,7 +39,15 @@ public class Chest1 : MonoBehaviour
             {
                 key1.GetComponent<BoxCollider>().enabled = true;
                 keygone.SetActive(false);
+                UI.SetActive(false);
             }
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            UI.SetActive(false);
         }
     }
     public void OpenDoor()
