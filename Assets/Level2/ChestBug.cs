@@ -7,6 +7,7 @@ public class ChestBug : MonoBehaviour
     public GameObject UI;
     public GameObject Chest;
     public Component off;
+    public GameObject wall;
 
     void OnTriggerEnter(Collider other)
     {
@@ -14,6 +15,7 @@ public class ChestBug : MonoBehaviour
         {
             Chest.SetActive(true);
             UI.SetActive(false);
+            wall.SetActive(true);
             off.GetComponent<BoxCollider>().enabled = false;
 
         }
