@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     public GameObject howtoplay;
     public GameObject info;
     public GameObject credits;
+    private int SceneLoad;
     public void Start()
     {
         mainm.SetActive(true);
@@ -19,7 +20,9 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(SceneLoad);
     }
     public void infoClicked()
     {

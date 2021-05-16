@@ -15117,6 +15117,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198875138956251740, guid: 2b0d7f8f779c4ed4b96621647861c04c, type: 3}
+      propertyPath: useUnscaledTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198875138956251740, guid: 2b0d7f8f779c4ed4b96621647861c04c, type: 3}
       propertyPath: TriggerModule.exit
       value: 2
       objectReference: {fileID: 0}
@@ -27984,6 +27988,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198875138956251740, guid: 2b0d7f8f779c4ed4b96621647861c04c, type: 3}
+      propertyPath: useUnscaledTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198875138956251740, guid: 2b0d7f8f779c4ed4b96621647861c04c, type: 3}
       propertyPath: TriggerModule.exit
       value: 2
       objectReference: {fileID: 0}
@@ -28414,7 +28422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727461152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.641, y: -2.162, z: 16.477}
+  m_LocalPosition: {x: 0.641, y: -1.892, z: 16.477}
   m_LocalScale: {x: 1.2331566, y: 1.3547082, z: 1.1552017}
   m_Children: []
   m_Father: {fileID: 0}
@@ -30171,7 +30179,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ARE YOU SURE YOU WANT TO CHALLANGE LEVEL 2?
+  m_Text: ARE YOU SURE YOU WANT TO CHALLENGE LEVEL 2?
 --- !u!222 &855317699
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39966,8 +39974,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232483289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.91, y: -3.07, z: 19.71}
-  m_LocalScale: {x: 1.2331566, y: 1.3547082, z: 1.1552017}
+  m_LocalPosition: {x: 9.91, y: -2.741, z: 19.71}
+  m_LocalScale: {x: 1.2331566, y: 1.3547082, z: 1.72}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -41312,7 +41320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344447163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.91, y: -2.99, z: 19.71}
+  m_LocalPosition: {x: -7.91, y: -2.788, z: 19.71}
   m_LocalScale: {x: 1.2331566, y: 1.3547082, z: 1.1552017}
   m_Children: []
   m_Father: {fileID: 0}
@@ -49144,7 +49152,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ARE YOU SURE YOU WANT TO CHALLANGE LEVEL 1?
+  m_Text: ARE YOU SURE YOU WANT TO CHALLENGE LEVEL 1?
 --- !u!222 &1566109161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50299,7 +50307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ARE YOU SURE YOU WANT TO CHALLANGE LEVEL 3?
+  m_Text: ARE YOU SURE YOU WANT TO CHALLENGE LEVEL 3?
 --- !u!222 &1669810926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -57910,6 +57918,10 @@ PrefabInstance:
     - target: {fileID: 198875138956251740, guid: 2b0d7f8f779c4ed4b96621647861c04c, type: 3}
       propertyPath: stopAction
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198875138956251740, guid: 2b0d7f8f779c4ed4b96621647861c04c, type: 3}
+      propertyPath: useUnscaledTime
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198875138956251740, guid: 2b0d7f8f779c4ed4b96621647861c04c, type: 3}
       propertyPath: TriggerModule.exit
