@@ -1,39 +1,37 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Events;
 public class TrapParticle : MonoBehaviour
 {
 
-    private void Start()
+    ParticleSystem particle;
+    public UnityEvent Life;
+    bool crRunning;
+    // Start is called before the first frame update
+    void Start()
     {
-        ParticleSystem ps = GetComponent<ParticleSystem>();
-        var coll = ps.collision;
-        coll.enabled = true;
-        coll.bounce = 0.5f;
+        particle = GetComponent<ParticleSystem>();
     }
-    private void OnParticleTrigger(Collider collision)
-    {
-        if (collision.tag == "Player")
-        {
-            Invoke("MinusLife", 1);
 
+    // Update is called once per frame
+    void OnParticleCollision(GameObject other)
+    {
+        if (crRunning == false)
+        {
+            StartCoroutine(invulnerable());
         }
     }
-    private void OnCollisionEnter(Collision collision)
+    IEnumerator invulnerable()
     {
-        Invoke("MinusLife", 1);
+        crRunning = true;
+        Life.Invoke();
+        yield return new WaitForSeconds(3f);
+        crRunning = false;
     }
-    private void OnTriggerEnter(Collider collision)
-    {
-        if (collision.tag == "Player")
-        {
-            Invoke("MinusLife", 1);
-
-        }
-    }
-    private void MinusLife()
+    /*private void MinusLife()
     {
         FindObjectOfType<LifeCount>().LoseLife();
-    }
+    }*/
 
 }
