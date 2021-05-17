@@ -6,6 +6,7 @@ public class KeyLast : MonoBehaviour
 {
     public Component door;
     public GameObject flame;
+    public GameObject flamelight;
     public GameObject keygone;
     public GameObject UI;
     Animator animate;
@@ -30,6 +31,7 @@ public class KeyLast : MonoBehaviour
             {
                 door.GetComponent<BoxCollider>().enabled = true;
                 flame.SetActive(true);
+                flamelight.SetActive(true);
                 keygone.SetActive(false);
                 UI.SetActive(false);
                 if (isOpening == false)

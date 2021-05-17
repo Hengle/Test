@@ -5,7 +5,9 @@ using UnityEngine;
 public class Key1 : MonoBehaviour
 {
     public GameObject chest;
+    public GameObject chestgone;
     public GameObject flame;
+    public GameObject flamelight;
     public GameObject keygone;
     public GameObject UI;
     Animator animate;
@@ -29,7 +31,9 @@ public class Key1 : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 chest.SetActive(true);
+                chestgone.SetActive(false);
                 flame.SetActive(true);
+                flamelight.SetActive(true);
                 keygone.SetActive(false);
                 UI.SetActive(false);
                 if (isOpening == false)
